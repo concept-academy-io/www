@@ -1,73 +1,127 @@
-<html>
+<!DOCTYPE html>
+
+<html lang="en">
 <head>
-    <title>noSite</title>
-
-    <link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-
-    <link rel="apple-touch-icon" sizes="57x57" href="//thebackoffice.github.io/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="//thebackoffice.github.io//favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="//thebackoffice.github.io//favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="//thebackoffice.github.io//favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="//thebackoffice.github.io//favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="//thebackoffice.github.io//favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="//thebackoffice.github.io//favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="//thebackoffice.github.io//favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="//thebackoffice.github.io//favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="//thebackoffice.github.io//favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="//thebackoffice.github.io//favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="//thebackoffice.github.io//favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="//thebackoffice.github.io//favicon/favicon-16x16.png">
-    <link rel="manifest" href="//thebackoffice.github.io//favicon/manifest.json">
-
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            color: #999999;
-            display: table;
-            font-weight: 100;
-            font-family: 'Lato';
-        }
-
-        .container {
-            text-align: center;
-            display: table-cell;
-            vertical-align: middle;
-        }
-
-        .content {
-            text-align: center;
-            display: inline-block;
-        }
-
-        .title {
-            font-size: 96px;
-            margin-bottom: 40px;
-        }
-
-        .title span{
-            color: #666666;
-        }
-
-        .quote {
-            font-size: 24px;
-            color: #333333;
-        }
-    </style>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Concept Academy</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="css/layout.css" rel="stylesheet"/>
+    <link href="css/typography.css" rel="stylesheet"/>
 </head>
 <body>
-<div class="container">
-    <div class="content">
-        <div class="title">no<span>Site</span></div>
-        <div class="quote">
-            status :: 200
-        </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="navbar-brand">
+        <a class="social-icon text-dark" href="#"><i class="fab fa-github"></i></a>
+        <a class="social-icon text-danger" href="#"><i class="fab fa-youtube"></i></a>
+        <a class="social-icon text-warning" href="#"><i class="fab fa-pinterest"></i></a>
+        <a class="social-icon text-primary" href="#"><i class="fab fa-facebook-f"></i></a>
+        <a class="social-icon text-info" href="#"><i class="fab fa-twitter"></i></a>
+        <a class="social-icon text-linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item d-inline d-lg-none">
+                <hr>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-graduation-cap d-inline d-lg-none"></i>
+                    Curriculum
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <h6 class="dropdown-header">by Age</h6>
+                    <a class="dropdown-item" href="/group-level/4-6.html">Age 4-6</a>
+                    <a class="dropdown-item" href="/group-level/6-8.html">Age 6-8</a>
+                    <a class="dropdown-item" href="/group-level/8-11.html">Age 8-11</a>
+                    <a class="dropdown-item" href="/group-level/11-14.html">Age 11-14</a>
+                    <a class="dropdown-item" href="/group-level/14-18.html">Age 14-18</a>
+                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">by Subject</h6>
+                    <a class="dropdown-item" href="/curriculum/applied_math.html">Applied Math</a>
+                    <a class="dropdown-item" href="/curriculum/concept_prototyping.html">Concept Prototyping</a>
+                    <a class="dropdown-item" href="/curriculum/craftsmanship_commercialization.html">Craftsmanship & Commercialization</a>
+                    <a class="dropdown-item" href="/curriculum/digital_media.html">Digital Media</a>
+                    <a class="dropdown-item" href="/curriculum/foundational_requisites.html">Foundational Requisites</a>
+                    <a class="dropdown-item" href="/curriculum/global_studies.html">Global Studies</a>
+                    <a class="dropdown-item" href="/curriculum/human-biology.html">Human Biology</a>
+                    <a class="dropdown-item" href="/curriculum/linguistic_communication.html">Linguistic Communication</a>
+                    <a class="dropdown-item" href="/curriculum/mep_suplements.html">MEP Supplements</a>
+                    <a class="dropdown-item" href="/curriculum/music_platforms.html">Music Platforms</a>
+                    <a class="dropdown-item" href="/curriculum/transactional_wealth.html">Transactional Wealth</a>
+                </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">
+                <i class="fas fa-swimmer d-inline d-lg-none"></i>
+                Activities</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">
+                <i class="fas fa-paperclip d-inline d-lg-none"></i>
+                Admissions</a></li>
+
+            <li class="nav-item d-inline d-lg-none">
+                <hr>
+            </li>
+            <li class="nav-item d-inline d-lg-none">
+                <a class="nav-link" href="/"><i class="fas fa-home d-inline d-lg-none"></i> Home</a>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="#">
+                <i class="fas fa-info-circle d-inline d-lg-none"></i>
+                About &amp; Contact</a></li>
+
+
+            <li class="nav-item d-none d-lg-inline">
+                <a class="btn btn-light" href="/"><i class="fas fa-home"></i></a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+<div id="homeBanner">
+    <div class="crest">
+        <img class="img-fluid" src="media/crest.webp"/>
+        <h3>COSTA RICA</h3>
     </div>
 </div>
+
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to Concept Academy!</h1>
+    <p class="lead">This is a new type of school for kids, focusing on practical skills and hands-on learning. Our philosophy is to blend primary and secondary education towards robust skill sets and cash flows.</p>
+    <hr/>
+    <p>Every graduate will need to have a revenue stream to qualify for graduation. We believe in preparing our students for the future, where AI is changing the nature of mental work.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg"><h2 class="display-4">Hands-On</h2>
+            <p>Our curriculum is designed to provide students with practical skills and hands-on learning experiences, preparing them for the real world.</p></div>
+        <div class="col-lg"><h2 class="display-4">Blended Education</h2>
+            <p>We blend primary and secondary education towards robust skill sets and cash flows, ensuring our students are ready for the future.</p></div>
+        <div class="col-lg"><h2 class="display-4">Future Ready</h2>
+            <p>With a focus on AI and the changing nature of mental work, our school prepares students for the future of work and entrepreneurship.</p></div>
+    </div>
+</div>
+
+<footer class="footer mt-auto py-3 bg-light" style="text-align: center;">
+    <div aria-label="Basic example" class="btn-group" role="group">
+        <a class="btn btn-link" href="#"><i class="fas fa-home"></i> Home</a>
+        <a class="btn btn-link" href="#"><i class="fas fa-graduation-cap "></i> Curriculum</a>
+        <a class="btn btn-link" href="#"><i class="fas fa-swimmer"></i> Activities</a>
+        <a class="btn btn-link" href="#"><i class="fas fa-paperclip"></i> Admissions</a>
+        <a class="btn btn-link" href="#"><i class="fas fa-info-circle"></i> About &amp; Contact</a>
+    </div>
+    <hr>
+    <div class="text-muted">&copy; 2023 Concept Academy. All rights reserved.</div>
+</footer>
 </body>
-<!-- is copilot running? -->
-
 </html>
-
