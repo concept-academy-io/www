@@ -40,14 +40,9 @@
 #homeBanner .crest h3{
     margin-top: -25px;
     margin-left: -0.5em;
-    color: #F2EDE2;
 }
 
 footer i{
     display: block !important;
 }
-footer .btn.btn-link:hover,
-footer .btn.btn-link:focus,
-footer .btn.btn-link:active {
-    text-decoration: none !important;
-}
+

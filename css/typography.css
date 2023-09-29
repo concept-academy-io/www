@@ -38,3 +38,15 @@ footer div>* i {
     font-size: clamp(1rem, 2vw, 1.5rem) !important;
     background-color: inherit;
 }
+
+#homeBanner .crest h1,
+#homeBanner .crest h2,
+#homeBanner .crest h3{
+    color: #F2EDE2;
+}
+
+footer .btn.btn-link:hover,
+footer .btn.btn-link:focus,
+footer .btn.btn-link:active {
+    text-decoration: none !important;
+}
