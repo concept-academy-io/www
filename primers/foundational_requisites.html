@@ -150,7 +150,7 @@
 </div>
 
 <footer class="footer mt-auto py-3 bg-light" style="text-align: center;">
-    <div class="btn-group" role="group">
+    <div class="btn-group d-none d-md-block" role="group">
         <a class="btn btn-link" href="/"><i class="fas fa-home"></i> Home</a>
         <div class="btn-group dropup">
             <button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -191,7 +191,10 @@
         <a class="btn btn-link" href="#"><i class="fas fa-paperclip"></i> Admissions</a>
         <a class="btn btn-link" href="#"><i class="fas fa-info-circle"></i> About &amp; Contact</a>
     </div>
-    <hr>
+    <hr class="d-none d-md-block">
+    <button onclick="window.scrollTo(0,0);" class="btn btn-secondary" style="position: fixed; bottom: 20px; right: 20px;">
+        <i class="fas fa-arrow-up"></i> Top
+    </button>
     <div class="text-muted">&copy; 2023 Concept Academy. All rights reserved.</div>
 </footer>
 </body>
