@@ -1,12 +1,18 @@
-
-
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Logic and Argument Patterns</title>
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Concept Academy: FR</title>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <link href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/typography.css">
     <link rel="apple-touch-icon" sizes="57x57" href="//favicon.conceptacademy.io/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="//favicon.conceptacademy.io/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="//favicon.conceptacademy.io/apple-icon-72x72.png">
@@ -22,52 +28,186 @@
     <link rel="icon" type="image/png" sizes="16x16" href="//favicon.conceptacademy.io/favicon-16x16.png">
     <link rel="manifest" href="//favicon.conceptacademy.io/manifest.json">
 </head>
+
 <body>
-<div class="container mt-5">
-<h1 class="text-center mb-4">Logic and Argument Patterns</h1>
-<!-- Basic Logic -->
-<div class="card mb-4">
-<div class="card-header">Basic Logic</div>
-<ul class="list-group list-group-flush">
-<li class="list-group-item" id="LP-01">Deductive Reasoning</li>
-<li class="list-group-item" id="LP-02">Inductive Reasoning</li>
-<li class="list-group-item" id="LP-03">Syllogism</li>
-<li class="list-group-item" id="LP-04">Fallacies</li>
-</ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="navbar-brand">
+        <a class="social-icon text-dark" href="#"><i class="fab fa-github"></i></a>
+        <a class="social-icon text-danger" href="#"><i class="fab fa-youtube"></i></a>
+        <a class="social-icon text-warning" href="#"><i class="fab fa-pinterest"></i></a>
+        <a class="social-icon text-primary" href="#"><i class="fab fa-facebook-f"></i></a>
+        <a class="social-icon text-info" href="#"><i class="fab fa-twitter"></i></a>
+        <a class="social-icon text-linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item d-inline d-lg-none">
+                <hr>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-graduation-cap d-inline d-lg-none"></i>
+                    Curriculum
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <h6 class="dropdown-header">By Age</h6>
+                    <a class="dropdown-item" href="/group-level/4-6.html">Age 4-6</a>
+                    <a class="dropdown-item" href="/group-level/6-8.html">Age 6-8</a>
+                    <a class="dropdown-item" href="/group-level/8-11.html">Age 8-11</a>
+                    <a class="dropdown-item" href="/group-level/11-14.html">Age 11-14</a>
+                    <a class="dropdown-item" href="/group-level/14-18.html">Age 14-18</a>
+
+                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">By Subject</h6>
+                    <a class="dropdown-item" href="/curriculum/applied_math.html">Applied Math</a>
+                    <a class="dropdown-item" href="/curriculum/concept_prototyping.html">Concept Prototyping</a>
+                    <a class="dropdown-item" href="/curriculum/craftsmanship_commercialization.html">Craftsmanship & Commercialization</a>
+                    <a class="dropdown-item" href="/curriculum/digital_media.html">Digital Media</a>
+                    <a class="dropdown-item" href="/curriculum/global_studies.html">Global Studies</a>
+                    <a class="dropdown-item" href="/curriculum/human-biology.html">Human Biology</a>
+                    <a class="dropdown-item" href="/curriculum/linguistic_communication.html">Linguistic Communication</a>
+                    <a class="dropdown-item" href="/curriculum/mep_suplements.html">MEP Supplements</a>
+                    <a class="dropdown-item" href="/curriculum/music_platforms.html">Music Platforms</a>
+                    <a class="dropdown-item" href="/curriculum/transactional_wealth.html">Transactional Wealth</a>
+
+                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">Foundations &amp; Primers</h6>
+                    <a class="dropdown-item" href="/primers/foundational_requisites.html">Global Studies</a>
+                    <a class="dropdown-item" href="/primers/logic.html">Logic</a>
+                    <a class="dropdown-item" href="/primers/english.html">English</a>
+                    <a class="dropdown-item" href="/primers/mandarin.html">Mandarin</a>
+                    <a class="dropdown-item" href="/primers/spanish.html">Spanish</a>
+                </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">
+                <i class="fas fa-swimmer d-inline d-lg-none"></i>
+                Activities</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">
+                <i class="fas fa-paperclip d-inline d-lg-none"></i>
+                Admissions</a></li>
+
+            <li class="nav-item d-inline d-lg-none">
+                <hr>
+            </li>
+            <li class="nav-item d-inline d-lg-none">
+                <a class="nav-link" href="#"><i class="fas fa-home d-inline d-lg-none"></i> Home</a>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="#">
+                <i class="fas fa-info-circle d-inline d-lg-none"></i>
+                About &amp; Contact</a></li>
+
+
+            <li class="nav-item d-none d-lg-inline">
+                <a class="btn btn-light" href="/"><i class="fas fa-home"></i></a>
+            </li>
+            <!--            <li class="nav-item dropdown"><a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button">Info</a>
+                                        <div aria-labelledby="navbarDropdown" class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#">About Us</a><a class="dropdown-item" href="#">Contact Us</a></div>
+                                    </li>-->
+        </ul>
+
+    </div>
+</nav>
+
+<div class="jumbotron">
+    <h1 class="display-4 text-center">Logic and Argument Patterns</h1>
 </div>
-<!-- Common Argument Patterns -->
-<div class="card mb-4">
-<div class="card-header">Common Argument Patterns</div>
-<ul class="list-group list-group-flush">
-<li class="list-group-item" id="LP-05">Cause and Effect</li>
-<li class="list-group-item" id="LP-06">Analogy</li>
-<li class="list-group-item" id="LP-07">Generalization</li>
-<li class="list-group-item" id="LP-08">Authority</li>
-</ul>
+
+<div class="container">
+    <div class="container mt-5">
+        <!-- Basic Logic -->
+        <div class="card mb-4">
+            <div class="card-header">Basic Logic</div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item" id="LP-01">Deductive Reasoning</li>
+                <li class="list-group-item" id="LP-02">Inductive Reasoning</li>
+                <li class="list-group-item" id="LP-03">Syllogism</li>
+                <li class="list-group-item" id="LP-04">Fallacies</li>
+            </ul>
+        </div>
+        <!-- Common Argument Patterns -->
+        <div class="card mb-4">
+            <div class="card-header">Common Argument Patterns</div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item" id="LP-05">Cause and Effect</li>
+                <li class="list-group-item" id="LP-06">Analogy</li>
+                <li class="list-group-item" id="LP-07">Generalization</li>
+                <li class="list-group-item" id="LP-08">Authority</li>
+            </ul>
+        </div>
+        <!-- Logic Patterns -->
+        <div class="card mb-4">
+            <div class="card-header">Logic Patterns</div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item" id="LP-09">Modus Ponens</li>
+                <li class="list-group-item" id="LP-10">Modus Tollens</li>
+                <li class="list-group-item" id="LP-11">Hypothetical Syllogism</li>
+                <li class="list-group-item" id="LP-12">Disjunctive Syllogism</li>
+            </ul>
+        </div>
+        <!-- Everyday Logic -->
+        <div class="card mb-4">
+            <div class="card-header">Everyday Logic</div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item" id="LP-13">If-Then Statements</li>
+                <li class="list-group-item" id="LP-14">Contradictions</li>
+                <li class="list-group-item" id="LP-15">Logical Consistency</li>
+                <li class="list-group-item" id="LP-16">Reductio ad Absurdum</li>
+            </ul>
+        </div>
+    </div>
 </div>
-<!-- Logic Patterns -->
-<div class="card mb-4">
-<div class="card-header">Logic Patterns</div>
-<ul class="list-group list-group-flush">
-<li class="list-group-item" id="LP-09">Modus Ponens</li>
-<li class="list-group-item" id="LP-10">Modus Tollens</li>
-<li class="list-group-item" id="LP-11">Hypothetical Syllogism</li>
-<li class="list-group-item" id="LP-12">Disjunctive Syllogism</li>
-</ul>
-</div>
-<!-- Everyday Logic -->
-<div class="card mb-4">
-<div class="card-header">Everyday Logic</div>
-<ul class="list-group list-group-flush">
-<li class="list-group-item" id="LP-13">If-Then Statements</li>
-<li class="list-group-item" id="LP-14">Contradictions</li>
-<li class="list-group-item" id="LP-15">Logical Consistency</li>
-<li class="list-group-item" id="LP-16">Reductio ad Absurdum</li>
-</ul>
-</div>
-</div>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<footer class="footer mt-auto py-3 bg-light" style="text-align: center;">
+    <div class="btn-group" role="group">
+        <a class="btn btn-link" href="/"><i class="fas fa-home"></i> Home</a>
+        <div class="btn-group dropup">
+            <button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-graduation-cap"></i> Curriculum
+            </button>
+            <div class="dropdown-menu">
+                <h6 class="dropdown-header">By Age</h6>
+                <a class="dropdown-item" href="/group-level/4-6.html">Age 4-6</a>
+                <a class="dropdown-item" href="/group-level/6-8.html">Age 6-8</a>
+                <a class="dropdown-item" href="/group-level/8-11.html">Age 8-11</a>
+                <a class="dropdown-item" href="/group-level/11-14.html">Age 11-14</a>
+                <a class="dropdown-item" href="/group-level/14-18.html">Age 14-18</a>
+
+                <div class="dropdown-divider"></div>
+                <h6 class="dropdown-header">By Subject</h6>
+                <a class="dropdown-item" href="/curriculum/applied_math.html">Applied Math</a>
+                <a class="dropdown-item" href="/curriculum/concept_prototyping.html">Concept Prototyping</a>
+                <a class="dropdown-item" href="/curriculum/craftsmanship_commercialization.html">Craftsmanship & Commercialization</a>
+                <a class="dropdown-item" href="/curriculum/digital_media.html">Digital Media</a>
+                <a class="dropdown-item" href="/curriculum/global_studies.html">Global Studies</a>
+                <a class="dropdown-item" href="/curriculum/human-biology.html">Human Biology</a>
+                <a class="dropdown-item" href="/curriculum/linguistic_communication.html">Linguistic Communication</a>
+                <a class="dropdown-item" href="/curriculum/mep_suplements.html">MEP Supplements</a>
+                <a class="dropdown-item" href="/curriculum/music_platforms.html">Music Platforms</a>
+                <a class="dropdown-item" href="/curriculum/transactional_wealth.html">Transactional Wealth</a>
+
+                <div class="dropdown-divider"></div>
+                <h6 class="dropdown-header">Foundations &amp; Primers</h6>
+                <a class="dropdown-item" href="/primers/foundational_requisites.html">Global Studies</a>
+                <a class="dropdown-item" href="/primers/logic.html">Logic</a>
+                <a class="dropdown-item" href="/primers/english.html">English</a>
+                <a class="dropdown-item" href="/primers/mandarin.html">Mandarin</a>
+                <a class="dropdown-item" href="/primers/spanish.html">Spanish</a>
+
+            </div>
+        </div>
+        <a class="btn btn-link" href="#"><i class="fas fa-swimmer"></i> Activities</a>
+        <a class="btn btn-link" href="#"><i class="fas fa-paperclip"></i> Admissions</a>
+        <a class="btn btn-link" href="#"><i class="fas fa-info-circle"></i> About &amp; Contact</a>
+    </div>
+    <hr>
+    <div class="text-muted">&copy; 2023 Concept Academy. All rights reserved.</div>
+</footer>
 </body>
 </html>
+
