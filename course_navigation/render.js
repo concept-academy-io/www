@@ -7,9 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return response.text();
         })
         .then(html => {
-            console.log(html);
             var elements = document.getElementsByClassName('curriculum-menu');
-            console.log(elements.length);
 
             for (var i = 0; i < elements.length; i++) {
                 var element = elements[i];
