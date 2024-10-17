@@ -1,7 +1,7 @@
 const courses = [
     'global',
     'general',
-].reverse();
+];
 
 
 document.addEventListener('DOMContentLoaded', function () {
